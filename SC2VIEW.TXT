@@ -1,0 +1,30 @@
+-----------------------------------------
+
+  SCREEN 2 Picture Viewer for MSX-DOS
+
+        SC2VIEW.COM v.0.91 by GDX
+-----------------------------------------
+
+SC2VIEW is display a picture saved in SCREEN2 with
+BSAVE"name.ext",0,&H3800,S instruction.
+
+
+Using:
+
+ Input the command and file name of picture as follows.
+
+  >SC2VIEW RomName.ext
+
+
+Example:
+
+  A>SC2VIEW PENGUIN.SC2
+
+Press Space key to exit.
+
+Note: The 'SC2VIEW.ASM' file is the code source. This file is not nessecary to run the viewer.
+
+
+Versions history:
+v.0.91 - Can load pictures with different sizes until 16kB.
+v.0.9  - First version
